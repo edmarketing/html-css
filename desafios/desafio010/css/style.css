@@ -89,8 +89,8 @@ nav a{
  }
 
 main{
-    min-width: 300px;
-    max-width: 1000px;
+    min-width: 320px;
+    max-width: 1024px;
     margin: auto;
     margin-bottom: 0px; 
     background-color: white;
