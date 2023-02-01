@@ -89,8 +89,8 @@ nav a{
  }
 
 main{
-    min-width: 320px;
-    max-width: 1024px;
+    min-width: 250px;
+    max-width: 1000px;
     margin: auto;
     margin-bottom: 0px; 
     background-color: white;
@@ -155,7 +155,7 @@ main img{
 }
 
 main img.pequena{
-    width: 350px;
+    width: 250px;
     display: block;
     margin: auto;
 }
