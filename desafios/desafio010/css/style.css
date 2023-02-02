@@ -1,14 +1,14 @@
 @charset "UTF-8";
-
+/*
 @media only screen and (max-device-width: 900px) {
     /* .menu { width:100%; } */
 }
 
-
+/*
 @media only screen and (max-device-width: 700px) {
     /* .menu { width:400px; } */
 }
-        
+ */       
 
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
 
@@ -89,7 +89,7 @@ nav > a{
     color:var(--cor1) ;
     font-weight: bold;
     padding: 10px;
-    margin-right: 10px;  
+    margin-right: 5px;  
  }
 
  nav a:hover{
