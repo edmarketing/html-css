@@ -7,13 +7,21 @@
     <link rel="shortcut icon" href="imagens/logoejm.ico" type="image/x-icon">
     <title>Desafio012 - Cordel Moderno</title>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family= Titillium +Web & display=swap');
+        @import  url ( 'https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap' );
 
-        @font-face {
-            font-family: 'passion';
-            src: url('fontes/PassionOne-Regular.ttf') format('opentype');
-            font-weight: normal;
-        }   
+        @import  url ( 'https://fonts.googleapis.com/css2?family=Sriracha&display=swap' );
+           
+        : raiz {
+            --fonte1 : Verdana , Genebra , Tahoma , sem serifa;
+            --fonte2 :  'Passion One' , cursiva;
+            --fonte3 :  'Sriracha' , cursiva;
+        }
+
+        * {
+            margem :  0 px ;
+            preenchimento :  0 px ;
+            tamanho da fonte :  1 em ;
+        }
 
         body{
             background-color: aquamarine;
@@ -29,7 +37,7 @@
         }
 
         h1{
-            font-family: passion;
+            font-family: var(--fonte2);
         }
         
         main{
@@ -37,7 +45,7 @@
             margin: auto;          
             background-color: white; 
             padding: 15px; 
-            font-family: sriracha;
+            font-family: var(--fonte3);
             border: 1px solid black;                   
         }
         
