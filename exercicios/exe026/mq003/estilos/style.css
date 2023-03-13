@@ -23,6 +23,7 @@
         color: white;
     }
 }
+
 /*=============================================
  Aparelho em pé (Modo portrait) */
     @media screen and (orientation: portrait) {
